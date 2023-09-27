@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0B2530;
+}
+.container{
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* heading */
+
+.section-heading h1{
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+/* section-filter */
+
+.section-filter{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-filter .select-div{
+    width: 30%;
+    margin-right: 30px;
+}
+.section-filter .button-div-filter{
+    margin-right: 30px;
+}
+
+
+/* section-form */
+
+.section-form{
+    width: 80%;
+    margin: 100px auto;
+}
+.section-form form{
+    display: flex;
+    justify-content: space-evenly;
+}
